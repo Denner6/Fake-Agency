@@ -119,7 +119,7 @@ body {
 
 section {
     display: inline-block;
-    height: calc(100vh - 100px);
+    height: 100vh;
     border: 1px solid black;
     margin: 0 5%;
     text-align: center;
