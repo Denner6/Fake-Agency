@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    background-color: white;
+    padding: 0 5%;
+}
+
+.logo {
+    flex: 20%;
+    text-align: center;
+    /* border: 1px solid deeppink; */
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: #180F4A;
+    font-size: 34px;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #FF2978;
+}
+
+#nav-button {
+    background: #180F4A;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+#nav-button:hover {
+    border: none;
+    background-color: #FF2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    margin: 0;    margin-top: 15px;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+    font-size: 20px;
+}
+
+.hire-btn {
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hire-btn:hover {
+    background: #180F4A;
+}
+
+.img-headline {
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+section {
+    display: inline-block;
+    height: calc(100vh - 100px);
+    border: 1px solid black;
+    margin: 0 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+.services {
+    display: flex;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden-text {
+    display: none;
+    text-align: center;
+}
+
+.card:hover {
+    background: #FF2978;
+    color:white;
+    padding:40px;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+
+.card:hover .hidden-text {
+    display: inline-block;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.footer-content h1, .footer-content * {
+    color: white;
+}
